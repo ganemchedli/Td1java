@@ -15,14 +15,15 @@ public class Question4 {
 			}	
 		}
 		
-		for(int i = 1 ; i < 51 ; i++) {
+		for(int i = 1 ; i <tab.size() ; i++) {
 			var+=tab.get(i);
 		}
 		
-		for(int i = 1 ; i < 51 ; i++) {
+		for(int i = 1 ; i < tab.size(); i++) {
 			System.out.println(tab.get(i));
 		}
-		
+		System.out.println("the total is : ");
+		System.out.println(var );
 	}
 
 }
